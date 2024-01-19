@@ -1,0 +1,48 @@
+#include "sys/alt_stdio.h"
+#include "altera_avalon_pio_regs.h"
+#include "altera_avalon_timer_regs.h"
+#include "altera_avalon_timer.h"
+#include "system.h"
+#include "sys/alt_irq.h"
+#include "io.h"
+#include "unistd.h"
+#include "sys/time.h"
+#include "sys/alt_sys_init.h"
+
+#include <stdio.h>
+
+
+volatile char sig_timer;
+
+
+static void interrupt_handler(void* context, alt_u32 id)
+{
+	sig_timer=1;
+	IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER_0_BASE, 0);
+	alt_printf("inter");
+}
+
+
+int main() {
+
+	alt_u16 compteur=0;
+	sig_timer=0;
+
+
+
+
+	IOWR_ALTERA_AVALON_PIO_DATA(SEGDECOD_BUS_BASE, 0x111);
+
+
+
+	// Initialisation timer
+	IOWR_ALTERA_AVALON_TIMER_CONTROL(TIMER_0_BASE, ALTERA_AVALON_TIMER_CONTROL_CONT_MSK | ALTERA_AVALON_TIMER_CONTROL_START_MSK | ALTERA_AVALON_TIMER_CONTROL_ITO_MSK);
+	alt_irq_register(TIMER_0_IRQ, NULL, interrupt_handler);
+
+	while(1)
+	{
+
+
+	}
+	return 0;
+}
