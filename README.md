@@ -33,3 +33,4 @@ Vous pouvez retrouver une vidéo démontrant mon système (le pas du compteur es
 
 https://github.com/ESN2024/HEITZ_Lab2/assets/114926533/486567b6-4e47-402a-b70b-b836813d2520
 
+Vous pouver retrouver le fichier .sof ici : https://github.com/ESN2024/HEITZ_Lab2/tree/main/output_files 
