@@ -4223,3 +4223,24 @@ java.io.IOException
 
 !ENTRY com.altera.sbtgui.launch 1 0 2024-01-19 17:08:24.725
 !MESSAGE Executing: [D:/programme/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/d/UCA/m2/conception_conjointe/HEITZ_Lab2/software/Lab_2/Lab_2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-20 18:39:36.825
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-20 18:39:37.367
+!MESSAGE Executing: [D:/programme/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-20 18:39:39.394
+!MESSAGE Executing: [D:/programme/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/d/UCA/m2/conception_conjointe/HEITZ_Lab2/software/Lab_2/Lab_2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-20 18:54:42.558
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-20 18:54:43.144
+!MESSAGE Executing: [D:/programme/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-20 18:54:45.068
+!MESSAGE Executing: [D:/programme/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/d/UCA/m2/conception_conjointe/HEITZ_Lab2/software/Lab_2/Lab_2.elf]
+
+!ENTRY org.eclipse.ui 4 4 2024-01-20 19:13:34.043
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@603f4e3e)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@259eede5)}
