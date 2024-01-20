@@ -28,5 +28,8 @@ Ainsi, nous actualiserons au sein d'une boucle while infinie le compteur en envo
 
 ## **IV. Conclusion**
 
-Ce TP est une bonne entrée en matière me permettant de mettre en œuvre un TImer, le design d'une architecture à base de Nios, le lien entre un IP crée par nos soin et un fichier top level et implémentation d'un code C sur celle-ci.
-Vous pouvez retrouver une vidéo démontrant mon système :
+Ce TP est une bonne entrée en matière me permettant de mettre en œuvre un Timer, le design d'une architecture à base de Nios, le lien entre un IP crée par nos soins et un fichier top level et implémentation d'un code C sur celle-ci.
+Vous pouvez retrouver une vidéo démontrant mon système (le pas du compteur est de 100 et celle-ci est en fois 2 afin de pouvoir observer la remise à zéro du compteur et de voir le bon défilement de tous les caractères sur les trois décodeurs.) :
+
+https://github.com/ESN2024/HEITZ_Lab2/assets/114926533/486567b6-4e47-402a-b70b-b836813d2520
+
